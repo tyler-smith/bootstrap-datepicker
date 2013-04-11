@@ -630,7 +630,7 @@
 								if ( this.minViewMode == 1 ) {
 									this._setDate(UTCDate(year, month, day,0,0,0,0));
 								}
-							} else {
+							} else if(target.is('.year')){
 								var year = parseInt(target.text(), 10)||0;
 								var day = 1;
 								var month = 0;
